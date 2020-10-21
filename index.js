@@ -79,12 +79,12 @@ function ordenarArray(array) {
 }
 
 function obtenerPares(array){
-    let i = 0 
-    while ( array [] ) {
+    for ( i = 0; i >= 0; i++){
 
     }
-    return array;
-}
+       
+    }
+    
 
 
 
@@ -94,3 +94,5 @@ let arrayNumerosNeg = [0,-1,-2,-3,-4,-5,-6,-7,-8,-9];
 let holaMundo = ["Hola","Mundo"];
 let loGuardoTodo = ["hola","que",23,42.33,"tal"];
 let arrayDeArrays = [[756,"nombre"],[225,"apellido"],[298,"direccion"]];
+
+
