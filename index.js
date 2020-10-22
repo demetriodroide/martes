@@ -77,7 +77,7 @@ function ordenarArray(array) {
     //devuelvo el array ordenado
     return (array);
 }
-
+/*
 function obtenerPares(array){
     for ( i = 0; i >= 0; i++){
 
@@ -94,5 +94,25 @@ let arrayNumerosNeg = [0,-1,-2,-3,-4,-5,-6,-7,-8,-9];
 let holaMundo = ["Hola","Mundo"];
 let loGuardoTodo = ["hola","que",23,42.33,"tal"];
 let arrayDeArrays = [[756,"nombre"],[225,"apellido"],[298,"direccion"]];
+
+*/
+
+let arrayFunciones = [
+    function suma(valor1,valor2){
+        return valor1 + valor2;
+    },
+    function resta(valor1,valor2){
+        return valor1 - valor2;
+    },
+    function multiplicacion(valor1,valor2){
+        return valor1 * valor2;
+    }
+];
+
+function obtenerImpares( array ){
+    if ( array % 2 === 1){
+        return array;
+    }
+}
 
 
